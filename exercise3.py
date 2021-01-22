@@ -72,7 +72,7 @@ def hello_world(thread_number):
     # the final value will be 9+5=14 (COUNT_MAX-1 + NUMBER_OF_THREADS). 
     # When NUMBER_OF_THREADS is substracted from COUNT_MAX, COUNT_MAX will be the number of 
     # 'Hello Worlds' printed (COUNT_MAX-1 + NUMBER_OF_THREADS - NUMBER_OF_THREADS, the first
-    # Hello World is printed with count=0
+    # Hello World is printed with count=0)
     while count < COUNT_MAX - NUMBER_OF_THREADS:
         print("     Thread " + str(thread_number) + " @ hello_world(), count=" + str(count))
         increment_count(thread_number)
