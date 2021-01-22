@@ -21,6 +21,7 @@ threads = []        # Array to hold the threads and their status
 # ANSI escape codes to make console text italic
 # Might not work an all terminals, if these get printed out and the Hello Worlds are not italic,
 # change them to empty strings or remove the 'it + ' and 'end_it' from line 39
+# Source: https://stackoverflow.com/questions/13559276/can-i-write-italics-to-the-python-shell#13559470
 it = '\x1B[3m'
 end_it = '\x1B[23m'
 
