@@ -37,6 +37,7 @@ def increment_count(thread_number):
         print ("     Thread " + str(thread_number) + " acquired Lock!")
         count += 1
         # Print the Hello World with thread information
+        # This is the whole point of this exercise, 'count' should increment sequentially
         print(it + "\nHello World from thread " + str(thread_number) + ": count=" + str(count) + "\n" + end_it)
         time.sleep(1/100)   # This is used to calm the terminal output and keep it more readable
                             # parallel threads tend to write on the same line
